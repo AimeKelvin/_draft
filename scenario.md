@@ -67,3 +67,10 @@ Kitchen Bob logs in → sees the new order items for table 3.
 Bob sets “Cheeseburgers” → cooking, then ready, then served.
 Once all items are served, backend updates order → served.
 Table 3 automatically becomes available.
+
+Tech Stack
+Node.js + Express (ES Module syntax, no TypeScript)
+MySQL (your restaurant_db)
+Nodemon (for auto-restart during development)
+CORS (allow frontend requests)
+No
